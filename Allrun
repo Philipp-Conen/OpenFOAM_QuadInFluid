@@ -9,6 +9,5 @@ then
     exit 0
 fi
 
-runApplication fluentMeshToFoam cylinderInChannel.msh
-runApplication changeDictionary
+runApplication blockMesh
 runApplication solids4Foam
